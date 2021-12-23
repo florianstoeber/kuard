@@ -1,0 +1,3 @@
+FROM alpine
+COPY bin/green/amd64/kuard /kuard
+ENTRYPOINT [ "/kuard" ]
